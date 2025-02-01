@@ -40,6 +40,12 @@ A simple console-based weather application that retrieves and displays weather i
 2. Enter the city name.
 4. View the weather details.
 
+## Project Structure
+- `Main.java` - Entry point of the application; handles user input.
+- `WeatherService.java` - Fetches and processes weather data from the API and assign it to WeatherData class.
+- `HttpClientUtil.java` - Handles HTTP requests to the OpenWeatherMap API.
+- `WeatherData.java` - Data model class representing weather details.
+  
 ## Example Output
 ```
 Enter city: Cairo

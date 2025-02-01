@@ -8,24 +8,42 @@ public class WeatherData {
     private String weatherDescription;
     private double windSpeed;
 
-    public WeatherData(String city, double windSpeed, String weatherDescription, int humidity, double temperature, String country) {
-        this.city = city;
+    public WeatherData() {
+
+    }
+
+    public void setWindSpeed(double windSpeed) {
         this.windSpeed = windSpeed;
+    }
+
+    public void setWeatherDescription(String weatherDescription) {
         this.weatherDescription = weatherDescription;
+    }
+
+    public void setHumidity(int humidity) {
         this.humidity = humidity;
+    }
+
+    public void setTemperature(double temperature) {
         this.temperature = temperature;
+    }
+
+    public void setCountry(String country) {
         this.country = country;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
     }
 
     @Override
     public String toString() {
-        return "WeatherData{" +
+        return "WeatherData\n" +
                 "city='" + city + '\'' +
-                ", country='" + country + '\'' +
-                ", temperature=" + temperature +
-                ", humidity=" + humidity +
-                ", weatherDescription='" + weatherDescription + '\'' +
-                ", windSpeed=" + windSpeed +
-                '}';
+                "\ncountry='" + country + '\'' +
+                "\ntemperature=" + temperature +"°C"+
+                "\nhumidity=" + humidity +
+                "\nweatherDescription='" + weatherDescription + '\'' +
+                "\nwindSpeed=" + windSpeed + "m/s";
     }
 }

@@ -22,7 +22,7 @@ A simple console-based weather application that retrieves and displays weather i
 ### Steps
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/your-username/weather-app.git](https://github.com/ahmednagi22/CodeClauseInternship_Weather-App.git
    cd weather-app
    ```
 2. Add your OpenWeatherMap API key in `HttpClientUtil.java`:

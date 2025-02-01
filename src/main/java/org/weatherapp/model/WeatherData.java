@@ -38,12 +38,10 @@ public class WeatherData {
 
     @Override
     public String toString() {
-        return "WeatherData\n" +
-                "city='" + city + '\'' +
-                "\ncountry='" + country + '\'' +
-                "\ntemperature=" + temperature +"°C"+
-                "\nhumidity=" + humidity +
-                "\nweatherDescription='" + weatherDescription + '\'' +
-                "\nwindSpeed=" + windSpeed + "m/s";
+        return  "city: " + city + ", " + country +
+                "\nTemperature: " + temperature +"°C"+
+                "\nHumidity: " + humidity +"%"+
+                "\nWeather: " + weatherDescription +
+                "\nWind Speed: " + windSpeed + "m/s";
     }
 }
